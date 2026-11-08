@@ -15,7 +15,7 @@
 
 1. Скачайте [`patches.json`](patches.json) (кнопка Download raw file).
 2. Замените им файл `src/patches.json` в папке мода `3784750764`:
-   - **Windows:** `<библиотека Steam>\steamapps\workshop\content¾446084750764\src\`
+   - **Windows:** `<библиотека Steam>\steamapps\workshop\content\2764460\3784750764\src\`
    - **macOS:** `~/Library/Application Support/Steam/steamapps/workshop/content/2764460/3784750764/src/`
      (в Finder: Cmd+Shift+G и вставить путь)
 3. Запустите установщик из папки `3784750764`:
