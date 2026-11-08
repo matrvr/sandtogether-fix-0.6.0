@@ -14,13 +14,20 @@
 ## Установка (обоим игрокам, игра закрыта)
 
 1. Скачайте [`patches.json`](patches.json) (кнопка Download raw file).
-2. Замените им файл в папке мода:
-   `<библиотека Steam>\steamapps\workshop\content\2764460\3784750764\src\patches.json`
-   (папку библиотеки можно найти так: Steam → Sandustry → Свойства → Установленные файлы → Обзор,
-   затем подняться до `steamapps`).
-3. Запустите `install.bat` из папки `3784750764`.
+2. Замените им файл `src/patches.json` в папке мода `3784750764`:
+   - **Windows:** `<библиотека Steam>\steamapps\workshop\content¾446084750764\src\`
+   - **macOS:** `~/Library/Application Support/Steam/steamapps/workshop/content/2764460/3784750764/src/`
+     (в Finder: Cmd+Shift+G и вставить путь)
+3. Запустите установщик из папки `3784750764`:
+   - **Windows:** `install.bat`
+   - **macOS:** двойной клик по `install.command`
    В выводе должно быть 42 строки `[+] bundle.js: ...` и ни одной строки `[!] skipped`.
-4. Запустите игру.
+4. Запустите игру (на macOS — через `SandTogether-Launch.command`).
+
+## Если что-то сломалось — лог
+
+- **Windows:** `%APPDATA%\Sandustry\logs\main.log`
+- **macOS:** `~/Library/Application Support/Sandustry/logs/main.log`
 
 Если Steam обновит мод или игру, фикс может слететь — повторите шаги 2–3.
 Если в мастерской выйдет версия мода с поддержкой 0.6.0, этот фикс больше не нужен.
